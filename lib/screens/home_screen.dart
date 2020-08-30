@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           SizedBox(height: 10),
-          LayoutBuilder(
+          LayoutBuilder( //https://www.youtube.com/watch?v=IYDVcriKjsw
             builder: (BuildContext context, BoxConstraints constraints) {
               final double maxBarWidth = constraints.maxWidth;
               final double percent =
